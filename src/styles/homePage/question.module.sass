@@ -1,0 +1,61 @@
+@import '../default/colors'
+  
+.question
+  border-bottom: solid .2rem #eee
+  display: flex
+  justify-content: space-between
+  .title
+    font-size: 1.6rem
+    
+    &:hover
+      color: $light_blue
+  .linkTitle
+    color: $black
+  .leftBlock
+    flex: 1
+  .dataBlock
+    display: flex
+    align-items: flex-start
+    justify-content: space-around
+    height: 8rem
+    padding-top: 1rem
+  .dataItem
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-size: 1.4rem
+  .dataItemLabel
+    color: $red
+  .userProfile
+    flex-shrink: 0
+    width: 10rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: $black
+    text-align: center
+    .avatar
+      width: 8rem
+      height: 8rem
+      border-radius: 100%
+      overflow: hidden
+    .img 
+      width: 100%
+      height: 100%
+  .dataItemNumber
+    color: $black
+  .highlightScore
+    color: $decoration_red
+  .answerNumber
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    color: $black
+  .borderAnswer
+    border: solid .1rem $decoration_green
+    color: $decoration_green
+  .acceptedAnswer
+    background-color: $decoration_green
+    color: $white
